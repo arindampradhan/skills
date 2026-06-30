@@ -36,7 +36,7 @@ You will review the Git diff between the **current branch (HEAD)** and **develop
 <details>
 <summary><h2>Scope</h2></summary>
 
-[Generate a file tree of every file touched, with a short `←` annotation per file explaining what changed. Group by directory.]
+[Generate a file tree of every file touched, with a short `←` annotation per file explaining what changed. Group by directory.] [command -> git diff develop...HEAD --name-only | sort | tree --fromfile -a --noreport or a simplified version]
 
 </details>
 
@@ -71,4 +71,4 @@ You will review the Git diff between the **current branch (HEAD)** and **develop
 - [ ] Kept behind a feature flag if it is a feature change
 - [ ] Added links (Linear/GitHub code references) if applicable — <ticket/link>
 
-**Important:** Give output in markdown format.
+**Important:** Give output in markdown format and keep the copy in .claude/docs/pr-description/<ISSUE_NUMBER>.md.
