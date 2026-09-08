@@ -1,3 +1,8 @@
+---
+name: command-pr-description
+description: Review the diff between the current branch and develop and generate a short, skimmable, human-sounding PR description from a fixed template. Use when opening a PR against develop or when asked for a PR description.
+---
+
 # PR Description Generator
 
 You will review the Git diff between the **current branch (HEAD)** and **develop**, then generate a PR description using the template below.

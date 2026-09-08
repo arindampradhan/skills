@@ -1,3 +1,8 @@
+---
+name: ocd-reviewer
+description: Review the current branch's changed files with obsessive scrutiny — magic strings, casing, naming, style violations, unused imports, missing useMemo, comment/CSS violations, and import order. Use when asked to review a branch diff or run a strict line-by-line code review.
+---
+
 Review the current branch's changed files like you have OCD. Run `git diff develop...HEAD` to get the diff, then scrutinize every line.
 
 Check for:
