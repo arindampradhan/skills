@@ -39,3 +39,9 @@ subject, net-negative LOC). Run `fingerprint`-style audits from the tek repo.
 |---|---|
 | `frontend-radio` | Answer frontend system-design interview questions with the RADIO framework plus an Excalidraw architecture diagram |
 | `0-dollar-stack-project` | Scaffold a production-ready SaaS entirely on free-tier tools |
+
+## Media & automation
+
+| Skill | What it does |
+|---|---|
+| `narrate-browser-recording` | Add local, offline voice narration to a browser-use recording — dub its captions with a real macOS voice, no cloud TTS |
